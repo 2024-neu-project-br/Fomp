@@ -168,20 +168,5 @@ namespace FoxoLib
                 Render();
             } 
         }
-
-        public void CheckStatus()
-        {
-            throw new NotImplementedException();
-        }
-
-        public void PassTime()
-        {
-            throw new NotImplementedException();
-        }
-
-        public void DisplayDetails()
-        {
-            throw new NotImplementedException();
-        }
     }
 }
