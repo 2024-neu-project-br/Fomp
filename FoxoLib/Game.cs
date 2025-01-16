@@ -4,7 +4,7 @@ namespace FoxoLib
 {
     public class Game
     {
-        public static int UpdateFrequency { get; } = 5000;
+        public static int UpdateFrequency { get; } = 600000;
         public Fomp Fomp { get; set; }
         public int SlotNum { get; set; }
         private System.Timers.Timer timer;
