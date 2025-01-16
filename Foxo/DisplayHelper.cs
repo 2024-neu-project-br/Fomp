@@ -15,46 +15,5 @@
             }
             Console.WriteLine();
         }
-
-        /*
-        public static void WindowSizeChangeListener()
-        {
-            int initialWidth = Console.WindowWidth;
-            int initialHeight = Console.WindowHeight;
-
-            while (true)
-            {
-                if (Console.WindowWidth != initialWidth || Console.WindowHeight != initialHeight)
-                {
-                    //Console.Clear();
-                    switch (MenuHelper.CurrentMenu)
-                    {
-                        /*case "MainMenu":
-                            MenuHelper.MainMenu();
-                        break;
-                        case "SlotMenu":
-                            MenuHelper.SlotMenu();
-                        break;
-                        case "EmptySlotMenu":
-                            MenuHelper.EmptySlotMenu(MenuHelper.CurrentMenuSlot);
-                        break;
-                        case "NonEmptySlotMenu":
-                            MenuHelper.NonEmptySlotMenu(MenuHelper.CurrentMenuSlot);
-                        break;
-                        case "NewGameSlotMenu":
-                            MenuHelper.NewGameSlotMenu();
-                        break;
-                        case "Game":
-                            MenuHelper.CurrentGame.Fomp.Render();
-                        break;
-                    }
-
-                    initialWidth = Console.WindowWidth;
-                    initialHeight = Console.WindowHeight;
-                }
-
-                Thread.Sleep(500);
-            }
-        }*/
     }
 }
