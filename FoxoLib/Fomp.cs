@@ -12,7 +12,7 @@ namespace FoxoLib
         public bool IsDead { get; set; }
         public bool IsBeingPet { get; set; } = false;
         public bool IsSleeping { get; set; }
-        public static int Timeout { get; } = 3000;
+        public static int Timeout { get; } = 5000;
         public DateTime LastFed { get; set; }
         public DateTime LastPet { get; set; }
         public DateTime SaveDate { get; set; }
